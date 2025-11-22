@@ -13,6 +13,7 @@ interface Category {
   heat?: number;
   avgChange?: number;
   volRatio?: number;
+  top_3_coins?: string[];  
 }
 
 interface Props {
